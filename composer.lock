@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "242535f629bb2a80dee216a86dc42c2e",
+    "content-hash": "b8a5623cc7a0ec22ced18876cbc65984",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -141,7 +141,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -185,7 +185,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -229,16 +229,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20"
+                "reference": "513777f382c080c6c172e2d6d43e7ad9b9cdea7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/89dfc65582205a9d92ab28de4f6f3fc161d67f20",
-                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/513777f382c080c6c172e2d6d43e7ad9b9cdea7b",
+                "reference": "513777f382c080c6c172e2d6d43e7ad9b9cdea7b",
                 "shasum": ""
             },
             "require": {
@@ -286,11 +286,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-08-31T13:21:53+00:00"
+            "time": "2020-09-07T02:44:31+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v6.18.38",
+            "version": "v6.18.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -3114,6 +3114,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": []
 }

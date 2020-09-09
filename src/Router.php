@@ -12,30 +12,14 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use League\Route\Strategy\JsonStrategy;
 use \Laminas\Diactoros\ResponseFactory;
+use League\Route\RouteGroup;
 use Acme\AuthMiddleware;
 
 $request = ServerRequestFactory::fromGlobals(
     $_SERVER, $_GET, $_POST, $_COOKIE, $_FILES
 );
 
-/*ROTAS HTTP*/
-/*$router = new League\Route\Router;
-
-// map a route
-$router->map('GET', '/', function (ServerRequestInterface $request) : ResponseInterface {
-    $response = new Laminas\Diactoros\Response;
-    $response->getBody()->write('<h1>dasfd, World!</h1>');
-    return $response;
-});
-
-$router->map('GET', '/auth', [App\controllers\IndexController::class, 'index']);
-
-$response = $router->dispatch($request);*/
-
-/*ROTAS API*/
-
 $responseFactory = new ResponseFactory;
-
 $strategy = new JsonStrategy($responseFactory);
 $router   = (new Router)->setStrategy($strategy);
 //$middleware = new AuthMiddleware();
@@ -43,7 +27,9 @@ $router   = (new Router)->setStrategy($strategy);
 // map a route
 $router->map('GET', '/', [Controllers\AppController::class, 'index']);
 
-$router->map('GET', '/auth', []);
+$router->group('/user', function (RouteGroup $route) {
+    $route->map('POST', '/create', [Controllers\UsersController::class, 'create']);
+});
 
 $router->map('GET', '/notlogedin', function (ServerRequestInterface $request) : array {
     return [

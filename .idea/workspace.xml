@@ -20,24 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a45d6a5c-4eb6-48ae-b313-0bc3e2763e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/AccountTransacationsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/AppController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/UserAccountController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/UserAddressController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/UserPhoneController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/AccountTransactions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/UserAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/UserAddress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/UserPhone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Users.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuthMiddleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trilha1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trilha1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/AppController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/AccountTransactions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/AccountTransactions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/UserAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/UserAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/UserAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/UserAddress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/UserPhone.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/UserPhone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +44,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="projetos_php72:latest">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -123,6 +122,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pocm/magento2" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -149,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599574112900</updated>
       <workItem from="1599574114005" duration="11323000" />
-      <workItem from="1599604158636" duration="1269000" />
+      <workItem from="1599604158636" duration="9151000" />
     </task>
     <servers />
   </component>
@@ -169,6 +169,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2265" y="75" width="824" height="684" key="#CLI_Interpreters" timestamp="1599622938926">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2265" y="75" width="824" height="684" key="#CLI_Interpreters/1366.0.2560.1080/0.144.1366.768@1366.0.2560.1080" timestamp="1599622938925" />
+    <state x="2521" y="402" width="618" height="342" key="#Docker2" timestamp="1599622867969">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2521" y="402" width="618" height="342" key="#Docker2/1366.0.2560.1080/0.144.1366.768@1366.0.2560.1080" timestamp="1599622867969" />
+    <state x="2347" y="211" width="832" height="711" key="#SSH_Configurations" timestamp="1599622621786">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2347" y="211" width="832" height="711" key="#SSH_Configurations/1366.0.2560.1080/0.144.1366.768@1366.0.2560.1080" timestamp="1599622621786" />
     <state x="2361" y="355" width="632" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599574691275">
       <screen x="1366" y="0" width="2560" height="1080" />
     </state>
@@ -189,9 +201,29 @@
       <screen x="1366" y="0" width="2560" height="1080" />
     </state>
     <state x="2477" y="479" width="399" height="156" key="NewPhpFileDialog/1366.0.2560.1080/0.144.1366.768@1366.0.2560.1080" timestamp="1599577021879" />
+    <state x="2171" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1599622948946">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2171" y="188" width="1022" height="737" key="SettingsEditor/1366.0.2560.1080/0.144.1366.768@1366.0.2560.1080" timestamp="1599622948946" />
     <state x="2345" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1599589965024">
       <screen x="1366" y="0" width="2560" height="1080" />
     </state>
     <state x="2345" y="259" width="672" height="678" key="search.everywhere.popup/1366.0.2560.1080/0.144.1366.768@1366.0.2560.1080" timestamp="1599589965024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Router.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/controllers/UsersController.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
